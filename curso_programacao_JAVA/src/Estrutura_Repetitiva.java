@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Estrutura_Repetitiva {
@@ -7,6 +8,7 @@ public class Estrutura_Repetitiva {
 		
 		// ENQUANTO - WHILE
 		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.printf("%n Insira valores, interrompa digitando zero (0): %n");
@@ -46,6 +48,28 @@ public class Estrutura_Repetitiva {
 		for(int i = 4; i >= 0; i--) {
 			System.out.println("Valor de i: " + i);
 		}
+		
+		// FAÇA - ENQUANTO —> DO - WHILE
+		
+		/* Fórmula: F = 9.C/5 + 32 */
+		
+		char resp;
+		
+		do {
+			System.out.printf("%n Digite a temperatura em Celsius: %n");
+			
+			double celsius = sc.nextDouble();
+			
+			double fahrenheit = (9.0 * celsius/5.0) + 32.0;
+			
+			System.out.printf("%n Equivalente em Fahrenheit: %.2f %n", fahrenheit);
+			
+			System.out.printf("%n Deseja repetir (s/n)? %n ");
+			
+			resp = sc.next().charAt(0);
+		} while (resp != 'n');
+		
+		System.out.printf("%n FIM ");
 		
 		sc.close();
 	}
