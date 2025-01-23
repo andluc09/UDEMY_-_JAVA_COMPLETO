@@ -1,3 +1,5 @@
+package Topicos_Basicos;
+
 import java.util.Scanner;
 
 public class bitwise {
