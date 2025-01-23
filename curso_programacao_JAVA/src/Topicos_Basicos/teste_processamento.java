@@ -2,7 +2,7 @@ package Topicos_Basicos;
 
 import java.util.Locale;
 
-public class teste_processamento {
+public class Teste_processamento {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -1,6 +1,6 @@
 package Topicos_Basicos;
 
-public class funcao_matematica {
+public class Funcao_matematica {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

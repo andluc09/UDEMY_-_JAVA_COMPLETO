@@ -3,7 +3,7 @@ package Topicos_Basicos;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class expressao_condicional_ternaria {
+public class Expressao_condicional_ternaria {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

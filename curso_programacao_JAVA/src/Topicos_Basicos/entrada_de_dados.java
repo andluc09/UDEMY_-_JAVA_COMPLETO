@@ -3,7 +3,7 @@ package Topicos_Basicos;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class entrada_de_dados {
+public class Entrada_de_dados {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
