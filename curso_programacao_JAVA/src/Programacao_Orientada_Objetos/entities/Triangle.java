@@ -2,9 +2,9 @@ package Programacao_Orientada_Objetos.entities;
 
 public class Triangle {
 	
-	public double a;
-	public double b;
-	public double c;
+	public double a; // ATRIBUTO
+	public double b; // ATRIBUTO
+	public double c; // ATRIBUTO
 	
 	public double area() {
 		double p = (a + b +c)/2.0;

@@ -1,6 +1,6 @@
 package br.com.Meu_projeto;
 
-public class cachorro {
+public class Cachorro {
 
 	int tamanho;
 	String raça;

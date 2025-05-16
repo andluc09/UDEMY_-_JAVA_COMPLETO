@@ -17,8 +17,8 @@ public class Program_Principal {
 					  // Classe: é a definição do tipo — Triangle
 					  // Objetos: são instâncias da classe — Triângulo X e o Triângulo Y
 		
-		x = new Triangle();
-		y = new Triangle();
+		x = new Triangle(); // OBJETO X do tipo Triângulo, instância da classe
+		y = new Triangle(); // OBJETO Y do tipo Triângulo, instância da classe
 		
 		System.out.printf("%n Enter the measures of triangle X: %n");
 		
