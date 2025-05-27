@@ -5,6 +5,8 @@ import java.util.Scanner;
 
 public class ProgramAverage {
 
+	// VETOR TIPO - PRIMITIVO
+	
 	public static void main(String[] args) {
 		
 		Locale.setDefault(Locale.US);
@@ -19,7 +21,7 @@ public class ProgramAverage {
 		double[] vect = new double[n]; // Instanciação do vetor
 				
 		for (int i = 0; i < n ; i++) {
-			System.out.printf("%nEnter value %d° in vector: ", i+1);
+			System.out.printf("%nEnter value %dª in vector: ", i+1);
 			vect[i] = sc.nextDouble(); 
 			amount += vect[i];
 		}
