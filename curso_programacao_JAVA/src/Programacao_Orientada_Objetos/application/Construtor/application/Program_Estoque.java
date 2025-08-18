@@ -15,7 +15,7 @@ public class Program_Estoque {
 		// Product product = new Product(); // Contrutores não se instância antes à
 		// classe
 
-		Product p = new Product(); // Construtor Padrão da Classe
+		// Product p = new Product(); // Construtor Padrão da Classe
 
 		/*
 		 * System.out.println(product.name); System.out.println(product.price);
