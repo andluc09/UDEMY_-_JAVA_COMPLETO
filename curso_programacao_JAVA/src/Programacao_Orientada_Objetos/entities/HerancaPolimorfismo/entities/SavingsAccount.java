@@ -25,6 +25,11 @@ public class SavingsAccount extends Account{
 		balance += balance * interestRate;
 	}
 
+	@Override // Sobreposição
+	public void withdraw(double amount) { // Saque
+		balance -= amount;
+	}
+	
 	@Override
 	public String toString() {
 		return "SavingsAccount [interestRate=" + interestRate + ", balance=" + balance + ", getInterestRate()="

@@ -35,12 +35,19 @@ public class Account {
 		return balance;
 	}
 
-	public void withdraw(double amount) {
-		balance -= amount;
+	public void withdraw(double amount) { // Saque
+		balance -= amount + 5.0;
 	}
 	
 	public void deposit(double amount) {
 		balance += amount;
+	}
+
+	@Override
+	public String toString() {
+		return "Account [number=" + number + ", holder=" + holder + ", balance=" + balance + ", getNumber()="
+				+ getNumber() + ", getHolder()=" + getHolder() + ", getBalance()=" + getBalance() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
 
 }

@@ -27,6 +27,12 @@ public class BusinessAccount extends Account{
 			balance += amount - 10.0;
 		}
 	}
+	
+	@Override // Sobreposição
+	public void withdraw(double amount) { // Saque
+		super.withdraw(amount);
+		balance -= 2.0;
+	}
 
 	@Override
 	public String toString() {
