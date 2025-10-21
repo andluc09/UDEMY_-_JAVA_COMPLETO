@@ -1,9 +1,12 @@
 package Programacao_Orientada_Objetos.entities.EnumeracoesComposicao.entities;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Client {
 
+	private SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	
 	private String name;
 	private String email;
 	private Date birthdate;
@@ -43,13 +46,11 @@ public class Client {
 
 	@Override
 	public String toString() {
-		return "Client [name=" 
-							+ name 
-							+ ", email=" 
-							+ email 
-							+ ", birthdate=" 
-							+ birthdate 
-							+ "]";
+		return name 
+					+ " (" 
+					+ sdf.format(birthdate)
+					+ ") - "
+					+ email;
 	}
 	
 }
