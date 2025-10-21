@@ -27,5 +27,14 @@ public class BusinessAccount extends Account{
 			balance += amount - 10.0;
 		}
 	}
+
+	@Override
+	public String toString() {
+		return "BusinessAccount [loanLimit=" + loanLimit + ", balance=" + balance + ", getLoanlimit()=" + getLoanlimit()
+				+ ", getNumber()=" + getNumber() + ", getHolder()=" + getHolder() + ", getBalance()=" + getBalance()
+				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
+				+ "]";
+	}
+	
 	
 }
