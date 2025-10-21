@@ -1,6 +1,6 @@
 package Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities;
 
-public class SavingsAccount extends Account{
+public /*final*/ class SavingsAccount extends Account{
 	
 	private Double interestRate;
 	
@@ -26,7 +26,7 @@ public class SavingsAccount extends Account{
 	}
 
 	@Override // Sobreposição
-	public void withdraw(double amount) { // Saque
+	public final void withdraw(double amount) { // Saque
 		balance -= amount;
 	}
 	
