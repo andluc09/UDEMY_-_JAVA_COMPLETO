@@ -4,9 +4,9 @@ public class SavingsAccountPlus extends SavingsAccount { // A palavra final impe
 
 	// EXEMPLO - MÉTODO FINAL
 	
-	@Override // Sobreposição
+	/*@Override // Sobreposição
 	public void withdraw(double amount) { // Saque
 		balance -= amount + 2.0;
-	}
+	}*/
 	
 }
