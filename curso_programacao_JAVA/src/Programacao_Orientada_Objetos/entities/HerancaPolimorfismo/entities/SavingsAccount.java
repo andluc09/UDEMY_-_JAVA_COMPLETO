@@ -1,6 +1,6 @@
 package Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities;
 
-public /*final*/ class SavingsAccount extends Account{
+public /*final*/ class SavingsAccount extends AccountAbstrata{
 	
 	private Double interestRate;
 	

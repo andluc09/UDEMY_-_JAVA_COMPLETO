@@ -3,6 +3,7 @@ package Programacao_Orientada_Objetos.application.HerancaPolimorfismo.applicatio
 import java.util.Locale;
 
 import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.Account;
+import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.AccountAbstrata;
 import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.SavingsAccount;
 
 public class ProgramPolimorfismo {
@@ -14,7 +15,7 @@ public class ProgramPolimorfismo {
 		// POLIMORFISMO
 		
 		Account x = new Account(1020, "Alex", 1000.00);
-		Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+		AccountAbstrata y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
 		
 		x.withdraw(50.0);
 		y.withdraw(50.0);

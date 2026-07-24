@@ -1,6 +1,6 @@
 package Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities;
 
-public class BusinessAccount extends Account{
+public class BusinessAccount extends AccountAbstrata{
 	
 	private Double loanLimit;
 	

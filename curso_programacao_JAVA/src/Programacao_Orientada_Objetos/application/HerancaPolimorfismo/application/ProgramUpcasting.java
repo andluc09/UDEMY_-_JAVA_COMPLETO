@@ -1,6 +1,7 @@
 package Programacao_Orientada_Objetos.application.HerancaPolimorfismo.application;
 
 import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.Account;
+import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.AccountAbstrata;
 import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.BusinessAccount;
 import Programacao_Orientada_Objetos.entities.HerancaPolimorfismo.entities.SavingsAccount;
 
@@ -15,13 +16,13 @@ public class ProgramUpcasting {
 		
 		// UPCASTING --> Super classe
 		
-		Account acc1 = bacc;
+		AccountAbstrata acc1 = bacc;
 		System.out.printf("%nSaldo = %.2f%n", acc1.getBalance());
 		
-		Account acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
+		AccountAbstrata acc2 = new BusinessAccount(1003, "Bob", 0.0, 200.0);
 		System.out.printf("%nTitular %s%n", acc2.getHolder());
 		
-		Account acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
+		AccountAbstrata acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);
 		
 		System.out.println();
 		System.out.println(acc1);
