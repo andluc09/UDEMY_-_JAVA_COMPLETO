@@ -17,11 +17,12 @@ public class ProgramClasseAbstrata {
 
 		// Instanciação de uma classe abstrata, não é possível:
 		
-		//AccountAbstrata acc1 = new Account(1001, "Alex", 1000.00);
+		//AccountAbstrata acc0 = new AccountAbstrata(1001, "Alex", 1000.00);
+		Account acc1 = new Account(1001, "Alex", 1000.00);
 		AccountAbstrata acc2 = new SavingsAccount(1002, "Maria", 1000.00, 0.01);
 		AccountAbstrata acc3 = new BusinessAccount(1003, "Bob", 1000.00, 500.00);
 
-		List<AccountAbstrata> list = new ArrayList<>();
+		List<AccountAbstrata> list = new ArrayList<>(); // Lista - Tipo Genérico
 		
 		list.add(new SavingsAccount(1001, "Alex", 500.00, 0.01));
 		list.add(new BusinessAccount(1002, "Maria", 1000.00, 400.00));
